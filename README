@@ -1,0 +1,8 @@
+This is parallel realization of QSort algorithm, written for university task.
+Uses MPI lib.
+
+To simply check it download mpi lib, and in project settings change 
+linker -> input -> additional depend. -> add msmpi.lib
+c/c++ -> general -> additional include dir -> add path to mpi include directory
+c/c++ -> preprocessor -> definition -> _SCL_SECURE_NO_WARNINGS;
+(It is becourse i use unsafe type of copy)
